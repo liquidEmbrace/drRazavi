@@ -1,0 +1,158 @@
+/**************** Bootstrap Media Queries ****************/
+
+/*********** Larges Devices ***********/
+@media (min-width: 1200px) {
+}
+
+/*********** Medium Devices ***********/
+@media (min-width: 992px) and (max-width: 1199px) {
+	.navbar {
+		background-color: rgba(0, 0, 0, 0.7);
+		padding: 0px;
+	}
+
+	#main-menu ul.navbar-nav {
+		float: left !important;
+	}
+
+	.nav-wrapper {
+		padding: 0px;
+	}
+}
+
+/*********** Small Devices ***********/
+@media (min-width: 768px) and (max-width: 991px) {
+	.navbar {
+		background-color: rgba(0, 0, 0, 0.7);
+		padding: 0px;
+	}
+
+	#main-menu ul.navbar-nav {
+		float: left !important;
+	}
+
+	.nav-wrapper {
+		padding: 0px;
+	}
+
+	#about-bg-diagonal {
+		border: none;
+		width: 100%;
+		height: 350px;
+	}
+
+	#about-content-box {
+		width: 100%;
+		height: 350px;
+	}
+
+	.stats-item {
+		padding: 20px 0px;
+	}
+
+	#footer-copyrights {
+		text-align: center;
+	}
+}
+
+/*********** X Small Devices ***********/
+@media (max-width: 767px) {
+	.navbar {
+		background-color: rgba(0, 0, 0, 0.7);
+		padding: 0px;
+	}
+
+	#main-menu ul.navbar-nav {
+		float: left !important;
+	}
+
+	.nav-wrapper {
+		padding: 0px;
+	}
+
+	#home-heading h3 {
+		font-size: 24px;
+	}
+
+	.btn-general {
+		padding: 6px 22px;
+		font-size: 14px;
+	}
+
+	#about-bg-diagonal {
+		border: none;
+		width: 100%;
+		height: 350px;
+	}
+
+	#about-content-box {
+		width: 100%;
+		height: 350px;
+	}
+
+	.img-wrapper img {
+		min-width: 100%;
+	}
+
+	.testimonial blockquote {
+		padding: 6px 50px;
+	}
+
+	.testimonial blockquote p {
+		font-size: 14px;
+	}
+
+	.testimonial blockquote p::before {
+		left: 10px;
+	}
+
+	.testimonial blockquote p::after {
+		right: 10px;
+	}
+
+	.stats-item {
+		padding: 20px 0px;
+	}
+
+	#footer-copyrights {
+		text-align: center;
+	}
+}
+
+/*********** XX Small Devices ***********/
+@media (max-width: 480px) {
+}
+
+/*********** XXX Small Devices ***********/
+@media (max-width: 320px) {
+	.service-item-icon i {
+		width: 58px;
+		height: 58px;
+		padding: 7px;
+	}
+
+	.service-item-title h3 {
+		font-size: 17px;
+	}
+
+	.content-title-white h3 {
+		font-size: 17px;
+	}
+
+	.testimonial img {
+		max-width: 80px;
+	}
+
+	.testimonial blockquote p::after,
+	.testimonial blockquote p::before {
+		line-height: 1;
+		font-style: normal;
+		font-size: 40px;
+		width: 15px;
+		height: 15px;
+	}
+
+	.testimonial blockquote p {
+		font-size: 14px;
+	}
+}
